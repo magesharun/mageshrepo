@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+}
+
+
+.header_left img{
+    height: 40px;
+
+}
+
+.img_avatar{
+    width: 45px;
+}
+
+.header{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    box-shadow: 0 5px 8px -9px rgba(0, 0,0, 0.75);
+  
+
+}
+
+
+.header_left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.header_input{
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+}
+
+.header_input input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.header_middle{
+        display: flex;
+        flex: 1;
+        justify-content: center;
+}
+
+.header_option .material-symbols-outlined{
+    font-size: xx-large;
+    color: gray;
+
+}
+.header_option:hover .material-symbols-outlined{
+    color: #2e81f4;
+
+}
+
+.header_option{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.header_option.active .material-symbols-outlined{
+    color: #2e81f4;
+}
+
+.header_option.active{
+    border-bottom: 4px solid #2e81f4 ;
+}
+.header_option:hover{
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.header_info{
+    display: flex;
+    align-items: center;
+
+}
+
+.header_info h4{
+    margin-left: 10px;
+}
+
+.header_right{
+    display: flex;
+    align-items: center ;
+}
+
+.header_right .material-symbols-outlined{
+    color: gray;
+    margin: 0 10px;
+    cursor: pointer;
+
+}
+/* sidebar styling starts */
+
+.sidebar_row{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar_row:hover{
+    background-color:lightgray;
+    border-radius: 10px;
+
+}
+
+.sidebar_row h4{
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.sidebar_row .material-symbols-outlined{
+    font-size: xx-large;
+    color: #2e81f4;
+
+
+}
+
+
+/* story style starts */
+.story{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 200px;
+    box-shadow: 0px 5px 17px -7px rgba(0, 0,0, 0.5);
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 300ms ease-in ;
+}
+
+
+.story:hover{
+    transform: scale(1.07);
+   
+}
+
+.story_avatar {
+    margin: 10px;
+
+}
+
+.story h4{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+  
+}
+
+.story_reel{
+    padding: 10px 0px;
+    display: flex;
+}
+
+.main_body{
+    display: flex;
+}
+
+.feed{
+    flex: 1;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-bar{
+    padding: 25px 10px;
+    flex: 0.33;
+}
+
+/* status updater */
+.status_updater{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0,0, 0.75);
+    width: 100%;
+}
+
+body{
+    background-color: #f1f2f5;
+}
+
+.status_user{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eff2f5;
+    padding: 15px;
+}
+
+.status_user form{
+    display: flex;
+    flex: 1;
+}
+
+.status_user form input{
+    flex: 1;
+    outline-width: 0;
+    border: none;
+    padding: 15px 20px ;
+    border-radius: 999px;
+    background-color: #eff2f5;
+
+}
+
+.status_updater_options{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.status_updater_options{
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+
+}
+
+.status_updater_options h3{
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.status_updater_options :hover{
+    cursor: pointer;
+    background-color: #eff2f5;
+    border-radius: 20px;
+
+}
+
+.statuses{
+    width: 100%;
+    margin-top:15px ;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0,0, 0.75);
+
+}
+
+.statuses .middle_image img
+{
+    width: 100%;
+
+
+}
+
+.statuses  .top{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.statuses .img_avatar{
+    margin-right: 10px;
+
+}
+
+.statuses h3{
+    font-size: medium;
+
+}
+
+.statuses p{
+    font-size: small;
+    color: gray;
+}
+
+.statuses .middle_text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:15px   25px ;
+}
+
+.statuses .bottom{
+    padding-top: 10px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    padding: 15px;
+
+}
+
+.statuses .post_option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
+}
+
+.statuses .post_option p{
+    margin-left: 10px;
+
+}
+
+.statuses .post_option:hover{
+    background-color: #eff2f5;
+    border-radius: 10px;
+}
+
+    @media(max-width:768px)
+    {
+        .side-bar{
+            display: none;
+        }
+
+        .header .header_input{
+            display: none;
+        }
+
+        .header .header_middle{
+            display: none;
+        }
+
+        .header .header_info{
+            display: none;
+        }
+        .widgets{
+            display: none;
+        }
+
+        .feed{
+            margin-top: 20px;
+            width: 100%;
+            padding: 0;
+        }
+        .story h4{
+            font-size: 10px;
+
+
+        }
+        .story img{
+            width: 40px;
+
+        }
+
+    }
+
+    @media(min-width:320px)
+    {
+        .story_reel{
+            width: 100%;
+            overflow-x: scroll;
+        }
+    }
+
+    @media(min-width:449px)and (max-width:1440px)
+    {
+        .feed{
+            width: 50%;
+            padding: 10px 50px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
